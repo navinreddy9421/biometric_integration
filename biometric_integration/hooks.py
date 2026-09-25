@@ -1,8 +1,8 @@
 app_name = "biometric_integration"
 app_title = "Biometric Integration"
-app_publisher = "Aster Business Solutions"
-app_description = "ZKTeco biometric attendance integration for ERPNext"
-app_email = "vinnupalsi@gmail.com"
+app_publisher = "vinay"
+app_description = "integration"
+app_email = "vinay@gmail.com"
 app_license = "mit"
 
 # Apps

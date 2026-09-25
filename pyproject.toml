@@ -1,9 +1,9 @@
 [project]
 name = "biometric_integration"
 authors = [
-    { name = "Aster Business Solutions", email = "vinnupalsi@gmail.com"}
+    { name = "vinay", email = "vinay@gmail.com"}
 ]
-description = "ZKTeco biometric attendance integration for ERPNext"
+description = "integration"
 requires-python = ">=3.14"
 readme = "README.md"
 dynamic = ["version"]

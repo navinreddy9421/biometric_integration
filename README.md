@@ -1,6 +1,6 @@
 ### Biometric Integration
 
-ZKTeco biometric attendance integration for ERPNext
+integration
 
 ### Installation
 
