@@ -262,3 +262,15 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+doctype_js = {
+    "Biometric Device": "public/js/biometric_device.js"
+}
+
+# Biometric automatic synchronization
+scheduler_events = {
+    "cron": {
+        "*/30 * * * *": [
+            "biometric_integration.tasks.sync_enabled_devices"
+        ]
+    }
+}

@@ -53,3 +53,15 @@ jspm_packages/
 
 # Aider AI Chat
 .aider*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Backup files
+*.backup
+*.bak
+
+# Environment / secrets
+.env
+.env.*

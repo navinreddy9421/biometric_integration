@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-09-28 10:05:06.360497",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "enable_automatic_sync",
+  "sync_interval",
+  "duplicate_window",
+  "employee_id_field",
+  "device_id_prefix",
+  "ignore_unknown_users"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "enable_automatic_sync",
+   "fieldtype": "Check",
+   "label": "Enable Automatic Sync"
+  },
+  {
+   "default": "30",
+   "fieldname": "sync_interval",
+   "fieldtype": "Int",
+   "label": "Sync Interval"
+  },
+  {
+   "default": "10",
+   "fieldname": "duplicate_window",
+   "fieldtype": "Int",
+   "label": "Duplicate Window"
+  },
+  {
+   "default": "attendance_device_id",
+   "fieldname": "employee_id_field",
+   "fieldtype": "Data",
+   "label": "Employee ID Field"
+  },
+  {
+   "default": "ZKTeco",
+   "fieldname": "device_id_prefix",
+   "fieldtype": "Data",
+   "label": "Device ID Prefix"
+  },
+  {
+   "default": "1",
+   "fieldname": "ignore_unknown_users",
+   "fieldtype": "Check",
+   "label": "Ignore Unknown Users"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-09-28 10:09:11.262856",
+ "modified_by": "Administrator",
+ "module": "Biometric Integration",
+ "name": "Biometric Sync Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

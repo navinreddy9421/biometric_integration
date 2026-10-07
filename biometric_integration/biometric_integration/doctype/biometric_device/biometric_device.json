@@ -1,0 +1,143 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-09-25 15:44:02.961526",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "last_error_column",
+  "device_name",
+  "enabled",
+  "device_ip",
+  "port",
+  "device_id",
+  "device_type",
+  "data_xvfx",
+  "data_cdxb",
+  "data_zepy",
+  "data_ytkd",
+  "select_lswz",
+  "datetime_sctd",
+  "datetime_qufu",
+  "int_fbga",
+  "last_error"
+ ],
+ "fields": [
+  {
+   "fieldname": "last_error_column",
+   "fieldtype": "Column Break",
+   "label": "Last Error"
+  },
+  {
+   "fieldname": "device_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Device Name",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "fieldname": "device_ip",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Device IP",
+   "reqd": 1
+  },
+  {
+   "default": "4370",
+   "fieldname": "port",
+   "fieldtype": "Int",
+   "label": "Port"
+  },
+  {
+   "fieldname": "device_id",
+   "fieldtype": "Data",
+   "label": "Device ID"
+  },
+  {
+   "fieldname": "device_type",
+   "fieldtype": "Select",
+   "label": "Device Type",
+   "options": "ZKTeco\nOther"
+  },
+  {
+   "fieldname": "data_xvfx",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "data_cdxb",
+   "fieldtype": "Data",
+   "label": "Firmware Version"
+  },
+  {
+   "fieldname": "data_zepy",
+   "fieldtype": "Data",
+   "label": "Platform"
+  },
+  {
+   "fieldname": "data_ytkd",
+   "fieldtype": "Data",
+   "label": "Device Name"
+  },
+  {
+   "fieldname": "select_lswz",
+   "fieldtype": "Select",
+   "label": "Connection Status",
+   "options": "Not Tested\nConnected\nDisconnected\nError"
+  },
+  {
+   "fieldname": "datetime_sctd",
+   "fieldtype": "Datetime",
+   "label": "Last Connection"
+  },
+  {
+   "fieldname": "datetime_qufu",
+   "fieldtype": "Datetime",
+   "label": "Last Sync"
+  },
+  {
+   "fieldname": "int_fbga",
+   "fieldtype": "Int",
+   "label": "Total Logs"
+  },
+  {
+   "fieldname": "last_error",
+   "fieldtype": "Small Text",
+   "label": "Last Error"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-09-28 09:58:59.936828",
+ "modified_by": "Administrator",
+ "module": "Biometric Integration",
+ "name": "Biometric Device",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

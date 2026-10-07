@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-09-28 09:59:53.527449",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "biometric_device",
+  "sync_started",
+  "sync_completed",
+  "status",
+  "device_logs",
+  "created_checkins",
+  "skipped_duplicates",
+  "unknown_users",
+  "failed_logs",
+  "error_message",
+  "details"
+ ],
+ "fields": [
+  {
+   "fieldname": "biometric_device",
+   "fieldtype": "Link",
+   "label": "Biometric Device",
+   "options": "Biometric Device"
+  },
+  {
+   "fieldname": "sync_started",
+   "fieldtype": "Datetime",
+   "label": "Sync Started"
+  },
+  {
+   "fieldname": "sync_completed",
+   "fieldtype": "Datetime",
+   "label": "Sync Completed"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Running\nSuccess\nPartial\nFailed"
+  },
+  {
+   "fieldname": "device_logs",
+   "fieldtype": "Int",
+   "label": "Device Logs"
+  },
+  {
+   "fieldname": "created_checkins",
+   "fieldtype": "Int",
+   "label": "Created Checkins"
+  },
+  {
+   "fieldname": "skipped_duplicates",
+   "fieldtype": "Int",
+   "label": "Skipped Duplicates"
+  },
+  {
+   "fieldname": "unknown_users",
+   "fieldtype": "Int",
+   "label": "Unknown Users"
+  },
+  {
+   "fieldname": "failed_logs",
+   "fieldtype": "Int",
+   "label": "Failed Logs"
+  },
+  {
+   "fieldname": "error_message",
+   "fieldtype": "Long Text",
+   "label": "Error Message"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Long Text",
+   "label": "Details"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-09-28 10:04:39.168294",
+ "modified_by": "Administrator",
+ "module": "Biometric Integration",
+ "name": "Biometric Sync Log",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
